@@ -11,7 +11,7 @@ int main()
 	scanf("%d",&b);
 	printf("\nnhap c: ");
 	scanf("%d",&c);
-	if(a+b<c||a+c<b||b+c<a)
+	if(a+b<=c||a+c<=b||b+c<=a)
 	{
 		printf("\nday khong phai la canh cua tam giac\n");
 	}
